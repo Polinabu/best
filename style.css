@@ -1,7 +1,6 @@
 body {
   background-color: hsla(40, 15%, 94%, 0.43);
 }
-
 .header_top {
   background-image: url(img/Road_Traveling.jpg);
   width: 100%;
@@ -16,30 +15,25 @@ body {
   font-family: 'Pontano Sans', sans-serif;
   margin-bottom: 90px;
 }
-
 .name_company {
   font-size: 50px;
   font-weight: 200;
   padding-top: 50px;
 }
-
 .moto {
   font-weight: 100;
   color: hsla(0, 0%, 100%, 0.75);
 }
-
 .main_content {
   width: 100%;
+  margin-bottom: 100px;
 }
-
 .title_about {
   text-align: center;
 }
-
 .about {
   font-family: 'PT Sans', sans-serif;
 }
-
 .about h2,
 h3 {
   font-weight: 100;
@@ -48,5 +42,54 @@ h3 {
   margin-right: 20%;
   color: hsla(0, 0%, 0%, 0.71);
 }
+.discount_section {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+  text-align: center;
+}
+.img_discount {
+  width: 200px;
+  margin: auto;
+  border-radius: 100px;
+  padding-top: 50px;
+}
+.img_discount h4,
+h5 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: hsla(0, 0%, 0%, 0.71);
+}
+.Turkey_section {
+  display: inline-block;
+}
+.Thailand_section {
+  display: inline-block;
+}
+.thailand_discount {
+  padding-left: 70px;
+}
+.trips_section {
+  background-color: hsla(0, 0%, 63%, 0.13);
+  width: 100%;
+  height: 400px;
+}
+.form_contact {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+.pure-form {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.pure-input-1-2 {
+  margin: auto!important;
+}
 
-.
+.button_contact {
+  background-color: hsla(14, 100%, 57%, 0.36)!important;
+  color: hsla(0, 0%, 0%, 0.71)!important;
+  font-family: 'PT Sans', sans-serif!important;
+}
